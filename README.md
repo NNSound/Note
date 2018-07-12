@@ -7,7 +7,7 @@
 yii  
 https://www.yiiframework.com/  
 ***
->這是一個php的mvc框架，mvc的基本概念就不提了相信大家都懂  
+這是一個php的mvc框架，mvc的基本概念就不提了相信大家都懂  
 一開始yii框架會先執行web/index來執行  
 yii當中控制部份會要求檔案名稱以Controller為結尾  
 如果是localhost的話，理論上URL會是  
@@ -18,7 +18,7 @@ localhost/site/index
 所以URL的當中site指的是SiteController，index指的是actionIndex  
 而以上這些又會指向到view/site/index當中  
 ***
->當你在SiteController中新增的一個新的action，如`actionText()`時  
+當你在SiteController中新增的一個新的action，如`actionText()`時  
 導向這個action的URL應該為  
 localhost/site/test  
 請注意雖然function 當中的Test是大寫，在URL中還是要用小寫  
@@ -26,7 +26,7 @@ localhost/site/test
 導向這個action的URL應該為  
 localhost/site/test-summit  
 ***
->view中的資料夾最好也應到Controller的名稱  
+view中的資料夾最好也應到Controller的名稱  
 在`return $this->render('index')`的時候才不容易出錯  
 ***
 心得：  
